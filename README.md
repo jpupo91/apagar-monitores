@@ -23,7 +23,7 @@ Shell, restaura primero las pantallas.
 
 ## Requisitos
 
-- GNOME Shell 45, 46, 47 o 51, según las versiones declaradas en
+- GNOME Shell 45, 46, 47, 51 o 51.1, según las versiones declaradas en
   [`metadata.json`](./metadata.json).
 - Una pantalla integrada que Mutter identifique como tal.
 
