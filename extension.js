@@ -169,7 +169,8 @@ export default class ApagarMonitoresExtension extends Extension {
         this._restoreItem.connect('activate', () => this._restoreExternal());
         this._button.menu.addMenuItem(this._restoreItem);
 
-        this._button.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem());
+        this._separatorItem = new PopupMenu.PopupSeparatorMenuItem();
+        this._button.menu.addMenuItem(this._separatorItem);
         this._sessionItem = new PopupMenu.PopupMenuItem(
             'Controlado por Mutter'
         );
@@ -178,6 +179,11 @@ export default class ApagarMonitoresExtension extends Extension {
     }
 
     disable() {
+        this._disableItem?.destroy();
+        this._restoreItem?.destroy();
+        this._separatorItem?.destroy();
+        this._sessionItem?.destroy();
+
         if (this._button) {
             this._button.destroy();
             this._button = null;
@@ -185,6 +191,7 @@ export default class ApagarMonitoresExtension extends Extension {
 
         this._disableItem = null;
         this._restoreItem = null;
+        this._separatorItem = null;
         this._sessionItem = null;
     }
 

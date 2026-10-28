@@ -2,7 +2,7 @@
   "name": "Apagar Monitores",
   "description": "Apaga y restaura los monitores externos desde el panel de GNOME, también en Wayland",
   "uuid": "apagar-monitores@jpupo91",
-  "version": 2,
+  "version": 3,
   "shell-version": ["51.1", "51", "47", "46", "45"],
   "url": "https://github.com/jpupo91/apagar-monitores",
   "gettext-domain": "apagar-monitores"
