@@ -4,6 +4,10 @@ Extensión de GNOME Shell para apagar y restaurar monitores externos desde el
 panel, también en Wayland. La configuración de pantalla se aplica mediante la
 interfaz de Mutter `DisplayConfig`.
 
+## Captura de la extensión
+
+![Captura de la extensión](./screenshot.png)
+
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia GPL-2.0-or-later. Consulta el
