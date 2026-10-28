@@ -6,7 +6,7 @@ import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import St from 'gi://St';
 
-const UUID = 'apagar-monitores@pupo';
+const UUID = 'apagar-monitores@jpupo91';
 const DISPLAY_CONFIG_BUS = 'org.gnome.Mutter.DisplayConfig';
 const DISPLAY_CONFIG_PATH = '/org/gnome/Mutter/DisplayConfig';
 const DISPLAY_CONFIG_IFACE = 'org.gnome.Mutter.DisplayConfig';
