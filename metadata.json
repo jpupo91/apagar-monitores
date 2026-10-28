@@ -1,0 +1,9 @@
+{
+  "name": "Apagar Monitores",
+  "description": "Apaga y restaura los monitores externos desde el panel de GNOME, también en Wayland",
+  "uuid": "apagar-monitores@pupo",
+  "version": 1,
+  "shell-version": ["51.1", "51", "47", "46", "45"],
+  "url": "https://github.com/pupo/apagar-monitores",
+  "gettext-domain": "apagar-monitores"
+}

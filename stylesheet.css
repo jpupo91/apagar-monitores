@@ -1,0 +1,8 @@
+/* Estilos opcionales para el botón del panel */
+#apagar-monitores-button {
+    padding: 0 6px;
+}
+
+#apagar-monitores-button .system-status-icon {
+    icon-size: 16px;
+}
